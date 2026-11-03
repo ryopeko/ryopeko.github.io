@@ -140,8 +140,23 @@ h2 {
   font-weight: 700;
 }
 
-.contact {
-  padding-left: 1.25rem;
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.contact-label {
+  min-width: 5rem;
+  color: var(--muted);
 }
 
 footer {

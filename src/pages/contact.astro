@@ -1,0 +1,21 @@
+---
+import Page from '../layouts/Page.astro';
+import { profile } from '../data/profile';
+---
+
+<Page title="お問い合わせ" description="お仕事のご依頼・ご相談は、メールか X の DM でお気軽にどうぞ。">
+  <ul class="contact-list">
+    <li>
+      <span class="contact-label">メール</span>
+      <a href={`mailto:${profile.contact.email}`}>{profile.contact.email}</a>
+    </li>
+    <li>
+      <span class="contact-label">X</span>
+      <a href={profile.contact.x} target="_blank" rel="me noopener">@{profile.handle}</a>
+    </li>
+    <li>
+      <span class="contact-label">GitHub</span>
+      <a href={profile.contact.github} target="_blank" rel="me noopener">{profile.handle}</a>
+    </li>
+  </ul>
+</Page>
