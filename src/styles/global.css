@@ -297,3 +297,62 @@ ul.source {
     font-size: 0.85rem;
   }
 }
+
+.tiles {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: 1rem;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: var(--card);
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.tile:hover,
+.tile:focus-visible {
+  border-color: var(--accent);
+}
+
+.tile img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: var(--border);
+}
+
+.tile-title {
+  padding: 0.6rem 0.75rem 0.25rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.tile:hover .tile-title {
+  color: var(--accent);
+}
+
+.tile-meta {
+  margin-top: auto;
+  padding: 0 0.75rem 0.6rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.tile-meta .badge {
+  background: var(--bg);
+}

@@ -1,13 +1,44 @@
 ---
 import Page from '../layouts/Page.astro';
-import ItemList from '../components/ItemList.astro';
 import { talkServices, talks } from '../data/achievements';
+import { formatDate } from '../lib/format';
 ---
 
 <Page title="登壇" description={`カンファレンスや勉強会で発表したスライドです(${talks.length} 件)。`}>
-  <ItemList items={talks.map((t) => ({ ...t, badges: [talkServices[t.service].label] }))} groupByYear />
+  <ul class="tiles">
+    {
+      talks.map((t) => (
+        <li>
+          <a class="tile" href={t.url}>
+            <img
+              src={t.thumbnail}
+              alt=""
+              width="640"
+              height="360"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <span class="tile-title">{t.title}</span>
+            <span class="tile-meta">
+              <time datetime={t.date ?? undefined}>{formatDate(t.date)}</time>
+              <span class="badge">{talkServices[t.service].label}</span>
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
   <p class="muted source">
-    スライドは <a href="https://speakerdeck.com/ryopeko">Speaker Deck</a> と
-    <a href="https://www.slideshare.net/ryopeko">SlideShare</a> にあります。SlideShare の日付はアップロードした日です。
+    スライドは
+    {
+      Object.values(talkServices).map((s, i) => (
+        <>
+          {i > 0 && ' と '}
+          <a href={s.url}>{s.label}</a>
+        </>
+      ))
+    }
+    にあります。SlideShare の日付はアップロードした日です。
   </p>
 </Page>

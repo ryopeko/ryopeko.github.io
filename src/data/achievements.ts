@@ -26,7 +26,8 @@ export const eventRoles = {
 type Dated = { title: string; url: string; date: string | null };
 
 export type Post = Dated & { site: keyof typeof blogSites };
-export type Talk = Dated & { service: keyof typeof talkServices };
+/** thumbnail は表紙の画像の URL(Speaker Deck の og:image、SlideShare のサムネイル) */
+export type Talk = Dated & { service: keyof typeof talkServices; thumbnail: string };
 export type Event = Dated & { roles: (keyof typeof eventRoles)[] };
 export type Book = Dated & { publisher: string; note?: string };
 export type Repository = { name: string; url: string; description: string; stars: number };
