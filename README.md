@@ -28,11 +28,6 @@ Node は `.node-version`、pnpm は `package.json` の `packageManager` のバ�
 - JSON は手で直してよい。日付は `YYYY-MM-DD` で、新しい順に並べる
 - `site` / `service` / `roles` に新しい値を足すときは、`achievements.ts` の表示名も足す
 
-仮の値が残っている:
-
-- `contact.email` は仮の値(`you@example.com`)。本人のアドレスに差し替える
-- `bio`(プロフィール文)と職歴の `role`(各社の役割)は下書き。本人が直す
-
 ## deploy
 
 `.github/workflows/deploy.yml` を手動実行(Actions > Deploy to GitHub Pages > Run workflow)すると、build して GitHub Pages に deploy する。公開のタイミングを本人が決めるため、当面は main への push では deploy しない。

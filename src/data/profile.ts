@@ -15,7 +15,6 @@ export const profile = {
   handle: 'ryopeko',
   tagline: 'Ruby と開発組織づくりのソフトウェアエンジニア',
   lead: '副業の相談を受け付けています',
-  // TODO: 仮の文。あとで本人が直す
   bio: [
     'Ruby / Rails を中心に、Web サービスのバックエンド開発に 18 年携わってきました。',
     'DeNA ではゲームプラットフォームの開発と開発者体験の改善、KAIZEN platform では顧客サイトの改善サービス、Shippio では国際物流プラットフォームのバックエンドを担当しました。現在はタイミーで、SRE の実践を組織に広げるチームにいます。',
@@ -28,7 +27,6 @@ export const profile = {
     { title: 'パフォーマンス改善', detail: 'アプリケーションやデータベースのボトルネックの調査と改善' },
     { title: 'リファクタリング', detail: '既存コードの見通しをよくし、変更しやすくする' },
   ],
-  // TODO: role は入社インタビューの業務内容をもとにした下書き。あとで本人が直す
   careers: [
     {
       company: 'タイミー',
@@ -62,8 +60,7 @@ export const profile = {
     },
   ] satisfies Career[],
   contact: {
-    // TODO: 本人の Gmail アドレスに差し替える
-    email: 'you@example.com',
+    email: 'ryopeko@gmail.com',
     x: 'https://x.com/ryopeko',
     github: 'https://github.com/ryopeko',
   },
