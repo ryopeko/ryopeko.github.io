@@ -81,8 +81,8 @@ const summary = [
       <p>ご相談は、メールか X の DM でお気軽にどうぞ。</p>
       <ul class="contact">
         <li><a href={`mailto:${profile.contact.email}`}>メール: {profile.contact.email}</a></li>
-        <li><a href={profile.contact.x} rel="me">X: @{profile.handle}</a></li>
-        <li><a href={profile.contact.github} rel="me">GitHub: {profile.handle}</a></li>
+        <li><a href={profile.contact.x} target="_blank" rel="me noopener">X: @{profile.handle}</a></li>
+        <li><a href={profile.contact.github} target="_blank" rel="me noopener">GitHub: {profile.handle}</a></li>
       </ul>
     </section>
   </main>

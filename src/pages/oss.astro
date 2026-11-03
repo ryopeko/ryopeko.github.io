@@ -16,7 +16,7 @@ const sections = [
         <ul class="repos">
           {s.repos.map((r) => (
             <li>
-              <a href={r.url}>{r.name}</a>
+              <a href={r.url} target="_blank" rel="noopener">{r.name}</a>
               {r.stars > 0 && <span class="muted"> ★{r.stars}</span>}
               {r.description && <p class="muted">{r.description}</p>}
             </li>
@@ -25,5 +25,5 @@ const sections = [
       </section>
     ))
   }
-  <p class="muted source">ほかのリポジトリは <a href="https://github.com/ryopeko">GitHub</a> にあります。</p>
+  <p class="muted source">ほかのリポジトリは <a href="https://github.com/ryopeko" target="_blank" rel="noopener">GitHub</a> にあります。</p>
 </Page>

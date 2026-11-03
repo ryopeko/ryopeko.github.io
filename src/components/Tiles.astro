@@ -24,7 +24,7 @@ const { items, ratio = '16 / 9', crop = false } = Astro.props;
   {
     items.map((t) => (
       <li>
-        <a class="tile" href={t.url}>
+        <a class="tile" href={t.url} target="_blank" rel="noopener">
           <img src={t.image} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
           <span class="tile-title">{t.title}</span>
           <span class="tile-meta">

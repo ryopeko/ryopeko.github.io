@@ -12,7 +12,7 @@ import { talkServices, talks } from '../data/achievements';
       Object.values(talkServices).map((s, i) => (
         <>
           {i > 0 && ' と '}
-          <a href={s.url}>{s.label}</a>
+          <a href={s.url} target="_blank" rel="noopener">{s.label}</a>
         </>
       ))
     }

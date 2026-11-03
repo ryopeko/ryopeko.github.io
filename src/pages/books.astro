@@ -9,12 +9,12 @@ import { formatDate } from '../lib/format';
     {
       books.map((b) => (
         <li>
-          <a href={b.url} class="book-cover">
+          <a href={b.url} class="book-cover" target="_blank" rel="noopener">
             <img src={b.image} alt={`${b.title} の書影`} loading="lazy" decoding="async" referrerpolicy="no-referrer" />
           </a>
           <div>
             <h2>
-              <a href={b.url}>{b.title}</a>
+              <a href={b.url} target="_blank" rel="noopener">{b.title}</a>
             </h2>
             <p class="muted">
               {b.publisher}、{formatDate(b.date)} 発売
