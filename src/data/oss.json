@@ -57,112 +57,16 @@
   ],
   "own": [
     {
-      "name": "ryopeko/db_supplier",
-      "url": "https://github.com/ryopeko/db_supplier",
-      "description": "",
-      "stars": 19
-    },
-    {
       "name": "ryopeko/shinq",
       "url": "https://github.com/ryopeko/shinq",
       "description": "Worker and enqueuer for Q4M using the interface of ActiveJob",
       "stars": 18
     },
     {
-      "name": "ryopeko/ruboty-weather",
-      "url": "https://github.com/ryopeko/ruboty-weather",
-      "description": "An ruboty handler to weather from livedoor API",
-      "stars": 5
-    },
-    {
-      "name": "ryopeko/Retromaker",
-      "url": "https://github.com/ryopeko/Retromaker",
-      "description": "過去のTweetをbotにつぶやかせて今を振り返る",
-      "stars": 3
-    },
-    {
-      "name": "ryopeko/RetroImageGenerator",
-      "url": "https://github.com/ryopeko/RetroImageGenerator",
-      "description": "あなたの画像をレトロにします",
-      "stars": 2
-    },
-    {
-      "name": "ryopeko/pekostream",
-      "url": "https://github.com/ryopeko/pekostream",
+      "name": "ryopeko/db_supplier",
+      "url": "https://github.com/ryopeko/db_supplier",
       "description": "",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/pekopermission",
-      "url": "https://github.com/ryopeko/pekopermission",
-      "description": "",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/StudyMinus",
-      "url": "https://github.com/ryopeko/StudyMinus",
-      "description": "",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/pekoviewer",
-      "url": "https://github.com/ryopeko/pekoviewer",
-      "description": "",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/Daioikachan-Client",
-      "url": "https://github.com/ryopeko/Daioikachan-Client",
-      "description": "Client for Daioikachan",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/pekobot",
-      "url": "https://github.com/ryopeko/pekobot",
-      "description": "useful bot for pekohome",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/ruboty-google_calendar",
-      "url": "https://github.com/ryopeko/ruboty-google_calendar",
-      "description": "",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/shinq_sample",
-      "url": "https://github.com/ryopeko/shinq_sample",
-      "description": "",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/install_q4m_in_travis",
-      "url": "https://github.com/ryopeko/install_q4m_in_travis",
-      "description": "",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/rails_template",
-      "url": "https://github.com/ryopeko/rails_template",
-      "description": "",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/solid_society",
-      "url": "https://github.com/ryopeko/solid_society",
-      "description": "",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/yard_diff",
-      "url": "https://github.com/ryopeko/yard_diff",
-      "description": "validate yard diff --git command",
-      "stars": 0
-    },
-    {
-      "name": "ryopeko/demo_schema",
-      "url": "https://github.com/ryopeko/demo_schema",
-      "description": "",
-      "stars": 0
+      "stars": 19
     }
   ]
 }
