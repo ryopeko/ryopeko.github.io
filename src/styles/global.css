@@ -342,3 +342,46 @@ footer {
 .books p {
   margin: 0;
 }
+
+.skill-category {
+  font-size: 1rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills > li {
+  background: var(--card);
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.75rem;
+}
+
+.skill-name {
+  font-weight: 700;
+}
+
+.skill-years {
+  margin-left: 0.4rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.frameworks {
+  list-style: none;
+  padding: 0;
+  margin: 0.1rem 0 0;
+  font-size: 0.9rem;
+}
+
+.note-small {
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+}

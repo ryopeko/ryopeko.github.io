@@ -4,6 +4,7 @@
 import blogData from './blog.json';
 import booksData from './books.json';
 import ossData from './oss.json';
+import skillsData from './skills.json';
 import talksData from './talks.json';
 
 export const blogSites = {
@@ -36,3 +37,9 @@ export const contributions = ossData.contributions as Repository[];
 
 /** 自分で作ったリポジトリ */
 export const ownRepositories = ossData.own as Repository[];
+
+/** 技術スタック。years は経験年数(年未満は切り捨て)。期間が分からないものは years なし */
+export type Skill = { name: string; years?: number; frameworks?: Skill[] };
+export type SkillCategory = { category: string; items: Skill[] };
+
+export const skills = skillsData as SkillCategory[];

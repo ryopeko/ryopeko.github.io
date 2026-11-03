@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { profile } from '../data/profile';
-import { books, contributions, ownRepositories, posts, talks } from '../data/achievements';
+import { books, contributions, ownRepositories, posts, skills, talks } from '../data/achievements';
 import { formatYm } from '../lib/format';
 
 const summary = [
@@ -39,6 +39,36 @@ const summary = [
           ))
         }
       </ul>
+    </section>
+
+    <section id="skills">
+      <h2>技術スタック</h2>
+      {
+        skills.map((c) => (
+          <>
+            <h3 class="skill-category">{c.category}</h3>
+            <ul class="skills">
+              {c.items.map((s) => (
+                <li>
+                  <span class="skill-name">{s.name}</span>
+                  {s.years && <span class="skill-years">約 {s.years} 年</span>}
+                  {s.frameworks && (
+                    <ul class="frameworks">
+                      {s.frameworks.map((f) => (
+                        <li>
+                          {f.name}
+                          {f.years && <span class="skill-years">約 {f.years} 年</span>}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </>
+        ))
+      }
+      <p class="muted note-small">経験年数は、業務で使っていた期間のおおよその合計です。</p>
     </section>
 
     <section id="career">
