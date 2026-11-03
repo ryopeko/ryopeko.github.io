@@ -13,7 +13,7 @@ export type Career = {
 export const profile = {
   name: '関口 亮一',
   handle: 'ryopeko',
-  tagline: 'Ruby と開発組織づくりのソフトウェアエンジニア',
+  tagline: 'Ruby を中心にしたソフトウェアエンジニア',
   lead: '副業の相談を受け付けています',
   bio: [
     'Ruby / Rails を中心に、Web サービスのバックエンド開発に 18 年携わってきました。',
