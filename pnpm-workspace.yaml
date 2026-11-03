@@ -1,0 +1,12 @@
+# pnpm の設定(tachikoma の方針に揃える)
+
+# 公開から 7 日(分単位)経っていないバージョンは取り込まない
+minimumReleaseAge: 10080
+
+# provenance などの信頼証跡が後退したバージョンを拒否する
+trustPolicy: no-downgrade
+
+# install 時のスクリプトは既定で無効。未許可のスクリプトを持つ依存が入ったら install を失敗させる
+onlyBuiltDependencies: []
+strictDepBuilds: true
+ignoredBuiltDependencies: []

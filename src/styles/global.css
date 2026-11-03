@@ -1,0 +1,151 @@
+:root {
+  --bg: #fdfdfc;
+  --fg: #1f2328;
+  --muted: #656d76;
+  --accent: #b4232f;
+  --card: #f3f2ef;
+  --border: #e3e1dc;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a;
+    --fg: #e6e7e9;
+    --muted: #9aa1a9;
+    --accent: #ff6b75;
+    --card: #1e2125;
+    --border: #2d3136;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  line-height: 1.8;
+}
+
+.hero,
+main,
+footer {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 0.25rem 0;
+}
+
+.handle,
+.muted {
+  color: var(--muted);
+}
+
+.handle {
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1.15rem;
+  margin: 0.5rem 0;
+}
+
+.lead {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+a {
+  color: var(--accent);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--bg);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+section {
+  padding: 2rem 0;
+  border-top: 1px solid var(--border);
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
+}
+
+.cards {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: 0.75rem;
+}
+
+.cards li {
+  background: var(--card);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.cards h3 {
+  font-size: 1rem;
+  margin: 0 0 0.25rem;
+}
+
+.cards p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+  padding: 0.25rem 0;
+}
+
+.period {
+  color: var(--muted);
+  min-width: 12rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.company {
+  font-weight: 700;
+}
+
+.contact {
+  padding-left: 1.25rem;
+}
+
+footer {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  color: var(--muted);
+}

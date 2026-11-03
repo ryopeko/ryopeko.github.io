@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import { profile } from '../data/profile';
+
+const formatYm = (ym: string) => {
+  const [y, m] = ym.split('-');
+  return `${y}年${Number(m)}月`;
+};
+---
+
+<Base title={`${profile.name} (@${profile.handle})`} description={`${profile.tagline}。${profile.lead}。`}>
+  <header class="hero">
+    <p class="handle">@{profile.handle}</p>
+    <h1>{profile.name}</h1>
+    <p class="tagline">{profile.tagline}</p>
+    <p class="lead">{profile.lead}</p>
+    <a class="button" href="#contact">相談する</a>
+  </header>
+
+  <main>
+    <section id="profile">
+      <h2>プロフィール</h2>
+      {profile.bio.map((p) => <p>{p}</p>)}
+    </section>
+
+    <section id="areas">
+      <h2>お手伝いできること</h2>
+      <ul class="cards">
+        {
+          profile.areas.map((a) => (
+            <li>
+              <h3>{a.title}</h3>
+              <p>{a.detail}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section id="career">
+      <h2>経歴</h2>
+      <ol class="timeline">
+        {
+          profile.careers.map((c) => (
+            <li>
+              <span class="period">
+                {formatYm(c.from)}〜{c.to ? formatYm(c.to) : '現在'}
+              </span>
+              <span class="company">{c.company}</span>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <section id="achievements">
+      <h2>実績</h2>
+      {
+        profile.achievements.length === 0 ? (
+          <p class="muted">準備中です。</p>
+        ) : (
+          <ul>
+            {profile.achievements.map((a) => (
+              <li>
+                {a.url ? <a href={a.url}>{a.title}</a> : a.title}
+                {a.date && <span class="muted"> ({a.date})</span>}
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </section>
+
+    <section id="contact">
+      <h2>連絡先</h2>
+      <p>ご相談は、メールか X の DM でお気軽にどうぞ。</p>
+      <ul class="contact">
+        <li><a href={`mailto:${profile.contact.email}`}>メール: {profile.contact.email}</a></li>
+        <li><a href={profile.contact.x} rel="me">X: @{profile.handle}</a></li>
+        <li><a href={profile.contact.github} rel="me">GitHub: {profile.handle}</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; {new Date().getFullYear()} {profile.name}</small>
+  </footer>
+</Base>
