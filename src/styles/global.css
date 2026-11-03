@@ -196,35 +196,6 @@ footer {
   border-top: 1px solid var(--border);
 }
 
-.year {
-  font-size: 1rem;
-  color: var(--muted);
-  margin: 1.5rem 0 0.25rem;
-}
-
-.items {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.items li {
-  display: flex;
-  gap: 0 1rem;
-  padding: 0.35rem 0;
-}
-
-.date {
-  flex: 0 0 6rem;
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
-}
-
-.item-body {
-  min-width: 0;
-  overflow-wrap: anywhere;
-}
-
 .badge {
   display: inline-block;
   margin-left: 0.5rem;
@@ -235,12 +206,6 @@ footer {
   font-size: 0.75rem;
   line-height: 1.6;
   vertical-align: 0.1em;
-}
-
-.note {
-  display: block;
-  color: var(--muted);
-  font-size: 0.9rem;
 }
 
 .career-list,
@@ -281,17 +246,6 @@ footer {
 .source {
   margin-top: 2rem;
   font-size: 0.9rem;
-}
-
-@media (max-width: 30rem) {
-  .items li {
-    flex-direction: column;
-  }
-
-  .date {
-    flex-basis: auto;
-    font-size: 0.85rem;
-  }
 }
 
 .tiles {

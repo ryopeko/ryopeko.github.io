@@ -3,7 +3,6 @@
 
 import blogData from './blog.json';
 import booksData from './books.json';
-import eventsData from './events.json';
 import ossData from './oss.json';
 import talksData from './talks.json';
 
@@ -18,25 +17,18 @@ export const talkServices = {
   slideshare: { label: 'SlideShare', url: 'https://www.slideshare.net/ryopeko' },
 } as const;
 
-export const eventRoles = {
-  organizer: '主催',
-  speaker: '登壇',
-} as const;
-
 type Dated = { title: string; url: string; date: string | null };
 
 /** image は記事の og:image の URL */
 export type Post = Dated & { site: keyof typeof blogSites; image: string };
 /** image は表紙のスライドの画像の URL(Speaker Deck の og:image、SlideShare のサムネイル) */
 export type Talk = Dated & { service: keyof typeof talkServices; image: string };
-export type Event = Dated & { roles: (keyof typeof eventRoles)[] };
 /** image は書影の URL */
 export type Book = Dated & { publisher: string; note?: string; image: string };
 export type Repository = { name: string; url: string; description: string; stars: number };
 
 export const posts = blogData as Post[];
 export const talks = talksData as Talk[];
-export const events = eventsData as Event[];
 export const books = booksData as Book[];
 
 /** 他の人のリポジトリへのコントリビュート */

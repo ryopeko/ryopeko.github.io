@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { profile } from '../data/profile';
-import { books, contributions, events, ownRepositories, posts, talks } from '../data/achievements';
+import { books, contributions, ownRepositories, posts, talks } from '../data/achievements';
 import { formatYm } from '../lib/format';
 
 const summary = [
@@ -9,7 +9,6 @@ const summary = [
   { href: '/blog/', label: 'ブログ', count: posts.length, unit: '本の記事' },
   { href: '/oss/', label: 'OSS', count: contributions.length + ownRepositories.length, unit: 'のリポジトリ' },
   { href: '/books/', label: '書籍', count: books.length, unit: '冊(共著)' },
-  { href: '/events/', label: 'イベント', count: events.length, unit: '件の主催・登壇' },
 ];
 ---
 
