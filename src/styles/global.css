@@ -328,8 +328,8 @@ ul.source {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: contain;
+  aspect-ratio: var(--tile-ratio, 16 / 9);
+  object-fit: var(--tile-fit, contain);
   background: var(--border);
 }
 
@@ -355,4 +355,40 @@ ul.source {
 
 .tile-meta .badge {
   background: var(--bg);
+}
+
+.books {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.books li {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.book-cover {
+  flex: 0 0 8rem;
+}
+
+.book-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 600 / 758;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 0.15);
+}
+
+.books h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.25rem;
+}
+
+.books p {
+  margin: 0;
 }

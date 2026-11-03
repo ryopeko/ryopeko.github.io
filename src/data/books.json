@@ -4,13 +4,15 @@
     "url": "https://gihyo.jp/book/2017/978-4-7741-8977-2",
     "date": "2017-05-17",
     "publisher": "技術評論社",
-    "note": "Rubyサポーターズ 著(共著)"
+    "note": "Rubyサポーターズ 著(共著)",
+    "image": "https://gihyo.jp/assets/images/cover/2017/9784774189772.jpg"
   },
   {
     "title": "パーフェクトRuby",
     "url": "https://gihyo.jp/book/2013/978-4-7741-5879-2",
     "date": "2013-08-10",
     "publisher": "技術評論社",
-    "note": "Rubyサポーターズ 著(共著)"
+    "note": "Rubyサポーターズ 著(共著)",
+    "image": "https://gihyo.jp/assets/images/cover/2013/9784774158792.jpg"
   }
 ]

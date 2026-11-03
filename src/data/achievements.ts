@@ -25,11 +25,13 @@ export const eventRoles = {
 
 type Dated = { title: string; url: string; date: string | null };
 
-export type Post = Dated & { site: keyof typeof blogSites };
-/** thumbnail は表紙の画像の URL(Speaker Deck の og:image、SlideShare のサムネイル) */
-export type Talk = Dated & { service: keyof typeof talkServices; thumbnail: string };
+/** image は記事の og:image の URL */
+export type Post = Dated & { site: keyof typeof blogSites; image: string };
+/** image は表紙のスライドの画像の URL(Speaker Deck の og:image、SlideShare のサムネイル) */
+export type Talk = Dated & { service: keyof typeof talkServices; image: string };
 export type Event = Dated & { roles: (keyof typeof eventRoles)[] };
-export type Book = Dated & { publisher: string; note?: string };
+/** image は書影の URL */
+export type Book = Dated & { publisher: string; note?: string; image: string };
 export type Repository = { name: string; url: string; description: string; stars: number };
 
 export const posts = blogData as Post[];

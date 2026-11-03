@@ -1,0 +1,38 @@
+---
+import { formatDate } from '../lib/format';
+
+export type Tile = {
+  title: string;
+  url: string;
+  date: string | null;
+  image: string;
+  badge?: string;
+};
+
+interface Props {
+  items: Tile[];
+  /** 画像の縦横比(幅 / 高さ) */
+  ratio?: string;
+  /** 画像を枠いっぱいに切り抜くか(false なら全体を収める) */
+  crop?: boolean;
+}
+
+const { items, ratio = '16 / 9', crop = false } = Astro.props;
+---
+
+<ul class="tiles" style={`--tile-ratio: ${ratio}; --tile-fit: ${crop ? 'cover' : 'contain'}`}>
+  {
+    items.map((t) => (
+      <li>
+        <a class="tile" href={t.url}>
+          <img src={t.image} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+          <span class="tile-title">{t.title}</span>
+          <span class="tile-meta">
+            <time datetime={t.date ?? undefined}>{formatDate(t.date)}</time>
+            {t.badge && <span class="badge">{t.badge}</span>}
+          </span>
+        </a>
+      </li>
+    ))
+  }
+</ul>

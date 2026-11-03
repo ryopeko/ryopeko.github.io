@@ -1,34 +1,11 @@
 ---
 import Page from '../layouts/Page.astro';
+import Tiles from '../components/Tiles.astro';
 import { talkServices, talks } from '../data/achievements';
-import { formatDate } from '../lib/format';
 ---
 
 <Page title="登壇" description={`カンファレンスや勉強会で発表したスライドです(${talks.length} 件)。`}>
-  <ul class="tiles">
-    {
-      talks.map((t) => (
-        <li>
-          <a class="tile" href={t.url}>
-            <img
-              src={t.thumbnail}
-              alt=""
-              width="640"
-              height="360"
-              loading="lazy"
-              decoding="async"
-              referrerpolicy="no-referrer"
-            />
-            <span class="tile-title">{t.title}</span>
-            <span class="tile-meta">
-              <time datetime={t.date ?? undefined}>{formatDate(t.date)}</time>
-              <span class="badge">{talkServices[t.service].label}</span>
-            </span>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+  <Tiles items={talks.map((t) => ({ ...t, badge: talkServices[t.service].label }))} />
   <p class="muted source">
     スライドは
     {

@@ -1,9 +1,28 @@
 ---
 import Page from '../layouts/Page.astro';
-import ItemList from '../components/ItemList.astro';
 import { books } from '../data/achievements';
+import { formatDate } from '../lib/format';
 ---
 
 <Page title="書籍" description="執筆に参加した書籍です。">
-  <ItemList items={books.map((b) => ({ ...b, note: `${b.publisher}、${b.note ?? ''}`.replace(/、$/, '') }))} />
+  <ul class="books">
+    {
+      books.map((b) => (
+        <li>
+          <a href={b.url} class="book-cover">
+            <img src={b.image} alt={`${b.title} の書影`} loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+          </a>
+          <div>
+            <h2>
+              <a href={b.url}>{b.title}</a>
+            </h2>
+            <p class="muted">
+              {b.publisher}、{formatDate(b.date)} 発売
+            </p>
+            {b.note && <p class="muted">{b.note}</p>}
+          </div>
+        </li>
+      ))
+    }
+  </ul>
 </Page>

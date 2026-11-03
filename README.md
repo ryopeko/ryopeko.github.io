@@ -18,15 +18,16 @@ Node は `.node-version`、pnpm は `package.json` の `packageManager` のバ�
 | ファイル | 内容 |
 |---|---|
 | `src/data/profile.ts` | プロフィール、受けたい領域、職歴と各社の役割、連絡先 |
-| `src/data/talks.json` | 登壇のスライド(`service` は `speakerdeck` / `slideshare`) |
-| `src/data/blog.json` | ブログの記事(`site` は `hatena` / `shippio` / `qiita`) |
+| `src/data/talks.json` | 登壇のスライド(`service` は `speakerdeck` / `slideshare`、`image` は表紙の画像の URL) |
+| `src/data/blog.json` | ブログの記事(`site` は `hatena` / `shippio` / `qiita`、`image` は記事の og:image の URL) |
 | `src/data/events.json` | 主催・登壇したイベント(`roles` は `organizer` / `speaker`) |
 | `src/data/oss.json` | コントリビュートしたリポジトリ(`contributions`)と自分で作ったもの(`own`) |
-| `src/data/books.json` | 書籍 |
+| `src/data/books.json` | 書籍(`image` は書影の URL) |
 | `src/data/achievements.ts` | 実績の JSON に型を付け、ページで使う形にまとめる |
 
 - JSON は手で直してよい。日付は `YYYY-MM-DD` で、新しい順に並べる
 - `site` / `service` / `roles` に新しい値を足すときは、`achievements.ts` の表示名も足す
+- 画像はリポジトリに置かず、外部の URL を直接参照する。画像が切れたら URL を差し替える
 
 ## deploy
 

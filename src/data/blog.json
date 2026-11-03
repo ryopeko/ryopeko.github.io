@@ -3,252 +3,294 @@
     "title": "関西Ruby会議 08で出したプロポーザルがacceptされなかったので供養しておく",
     "url": "https://ryopeko.hatenablog.com/entry/2025/05/22/105827",
     "date": "2025-05-22",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/6802418398440127880/1747879107"
   },
   {
     "title": "RubyKaigi 2025に参加しました",
     "url": "https://ryopeko.hatenablog.com/entry/2025/05/09/082531",
     "date": "2025-05-09",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/f4815a7b99b779cef8d2b35870caa253e92eb09d/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fr%2Fryopeko%2F20250418%2F20250418153752.jpg"
   },
   {
     "title": "RubyWorld Conference 2024に参加してきた",
     "url": "https://ryopeko.hatenablog.com/entry/2024/12/17/091824",
     "date": "2024-12-17",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/a4b9b1f1ded0261a73c9823412ed5f74dcad398f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fr%2Fryopeko%2F20241204%2F20241204154406.jpg"
   },
   {
     "title": "Contributions of Shippio to the Ruby community",
     "url": "https://techblog.shippio.io/contributions-of-shippio-to-the-ruby-community-175ff42067ae",
     "date": "2023-12-27",
-    "site": "shippio"
+    "site": "shippio",
+    "image": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632"
   },
   {
     "title": "Ruby Business Seminer Tokyo 2023",
     "url": "https://techblog.shippio.io/ruby-business-seminer-tokyo-2023-85cd143ebdf9",
     "date": "2023-06-28",
-    "site": "shippio"
+    "site": "shippio",
+    "image": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632"
   },
   {
     "title": "RubyKaigi 2023",
     "url": "https://techblog.shippio.io/rubykaigi-2023-f5f89c48abb8",
     "date": "2023-06-06",
-    "site": "shippio"
+    "site": "shippio",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*Kg8EVumaJxQHDqP1m_y-Yw.png"
   },
   {
     "title": "Why Shippio is sponsoring RubyKaigi 2023",
     "url": "https://techblog.shippio.io/why-shippio-is-sponsoring-rubykaigi-2023-313d0fba7460",
     "date": "2023-05-09",
-    "site": "shippio"
+    "site": "shippio",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*typ-XTUogd3F7p40ZtAf_Q.png"
   },
   {
     "title": "Shippio won the Ruby biz Grand prix 2022",
     "url": "https://techblog.shippio.io/shippio-won-the-ruby-biz-grand-prix-2022-f75d6249620b",
     "date": "2022-11-22",
-    "site": "shippio"
+    "site": "shippio",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*zmHeqEkeqUOfYbplaqF1BA.jpeg"
   },
   {
     "title": "Shippio に入社していました",
     "url": "https://ryopeko.hatenablog.com/entry/2022/09/08/104724",
     "date": "2022-09-08",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/4207112889916218528/1662623577"
   },
   {
     "title": "ActiveRecord を使っていて NoMethodError: undefined method `new' for BigDecimal:Class と言われたら",
     "url": "https://ryopeko.hatenablog.com/entry/2021/01/07/194402",
     "date": "2021-01-07",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/26006613675363257/1610016242"
   },
   {
     "title": "DeNAを退職します",
     "url": "https://ryopeko.hatenablog.com/entry/2015/10/30/134213",
     "date": "2015-10-30",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/6653458415126288477/1446180133"
   },
   {
     "title": "2014年だけど Q4M の紹介をしてみるよ",
     "url": "https://qiita.com/ryopeko/items/f42b65a11d7f1f74311e",
     "date": "2014-12-14",
-    "site": "qiita"
+    "site": "qiita",
+    "image": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Fadvent-calendar-ogp-background-7940cd1c8db80a7ec40711d90f43539e.jpg%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFtYXpvbmF3cy5jb20lMkYwJTJGNjYxNiUyRnByb2ZpbGUtaW1hZ2VzJTJGMTQ3MzY4MzAzMz9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9MmU0OWFmOGM0NTQxYWU0NjEzNjdmMmNmOThmZjY0ZTY%26blend-x%3D120%26blend-y%3D462%26blend-w%3D90%26blend-h%3D90%26blend-mode%3Dnormal%26mark64%3DaHR0cHM6Ly9xaWl0YS1vcmdhbml6YXRpb24taW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1vcmdhbml6YXRpb24taW1hZ2UlMkY4ZDRkNjU2YmM0MmUzMTdkYzA2YjA5OTY0MjY1NTRkZWI1YTc1ODE4JTJGb3JpZ2luYWwuanBnJTNGMTQzODE1MTYyMD9peGxpYj1yYi00LjEuMSZ3PTQ0Jmg9NDQmZml0PWNyb3AmbWFzaz1jb3JuZXJzJmNvcm5lci1yYWRpdXM9OCZiZz1GRkZGRkYmYm9yZGVyPTIlMkNGRkZGRkYmZm09cG5nMzImcz1jMDY4NjZjNmRkZjYwMDUyZDRmNzUzNTg2NDg0OTA2NQ%26mark-x%3D186%26mark-y%3D515%26mark-w%3D40%26mark-h%3D40%26s%3D2f186a80be9386c4f3a96f50e8bfb19f?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9MjAxNCVFNSVCOSVCNCVFMyU4MSVBMCVFMyU4MSU5MSVFMyU4MSVBOSUyMFE0TSUyMCVFMyU4MSVBRSVFNyVCNCVCOSVFNCVCQiU4QiVFMyU4MiU5MiVFMyU4MSU5NyVFMyU4MSVBNiVFMyU4MSVCRiVFMyU4MiU4QiVFMyU4MiU4OCZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzM0EzQzNDJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPTM0YzljZGMyODJlY2U0ZjJiOTNmYjdlMWMzOTY3OGMz&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDByeW9wZWtvJnR4dC1jb2xvcj0lMjMzQTNDM0MmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9M2VmODQ1YzBhZWZkNWFjODMxOGY1OWM2ZjZiOGM5OWE&blend-x=242&blend-y=454&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&txt64=S2FpemVuIFBsYXRmb3Jt&txt-x=242&txt-y=539&txt-width=838&txt-clip=end%2Cellipsis&txt-color=%233A3C3C&txt-font=Hiragino%20Sans%20W6&txt-size=28&s=bf9bfa531c117403eaf56e706fa53916"
   },
   {
     "title": "Developers Summit 2014 で新卒エンジニア研修についてお話してきました #devsumi",
     "url": "https://ryopeko.hatenablog.com/entry/2014/02/13/225714",
     "date": "2014-02-13",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/e41d3ec39db6b1922997415745d1ffbcb58f7b1b/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fr%2Fryopeko%2F20140213%2F20140213223854.jpg"
   },
   {
     "title": "自宅Ruby会議02が開催されました #jtrk02",
     "url": "https://ryopeko.hatenablog.com/entry/2014/02/09/005817",
     "date": "2014-02-09",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/c7bbbe853ea623f92a571e5acf9c4393495f4d97/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fr%2Fryopeko%2F20140209%2F20140209005512.jpg"
   },
   {
     "title": "ぶつかり稽古について一言言っておくか ( #cross2014 の話し)",
     "url": "https://ryopeko.hatenablog.com/entry/2014/01/21/095345",
     "date": "2014-01-21",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12921228815716902860/1390265625"
   },
   {
     "title": "師弟登壇・新米サムライの集い 2013 で発表しました",
     "url": "https://ryopeko.hatenablog.com/entry/2013/10/16/112359",
     "date": "2013-10-16",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/30b3fee42edeec0618f133d5f14b27ffac50bd2d/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F41cXiQEuF1L.jpg"
   },
   {
     "title": "パーフェクトRubyという書籍を執筆したら31歳になりました",
     "url": "https://ryopeko.hatenablog.com/entry/2013/09/27/163508",
     "date": "2013-09-27",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/046dfff9a39e1af95892affe2bec62eb71333461/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F51K0jUf%2BiEL.jpg"
   },
   {
     "title": "自分の価値を失うということ",
     "url": "https://ryopeko.hatenablog.com/entry/2013/06/19/022014",
     "date": "2013-06-19",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/11696248318754869715/1371576014"
   },
   {
     "title": "RubyKaigiに参加しませんでした #rubykaigi",
     "url": "https://ryopeko.hatenablog.com/entry/2013/06/01/225842",
     "date": "2013-06-01",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/11696248318754172725/1370095122"
   },
   {
     "title": "東京Ruby会議10と自宅Ruby会議01に参加しました #tkrk10",
     "url": "https://ryopeko.hatenablog.com/entry/20130114/1358179389",
     "date": "2013-01-14",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/31299c925cbe49132fd1581b268ea8c863363502/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fr%2Fryopeko%2F20130115%2F20130115004435.jpg"
   },
   {
     "title": "濱崎、C社やめたってよ",
     "url": "https://ryopeko.hatenablog.com/entry/20121006/1349478688",
     "date": "2012-10-06",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068720/1358180467"
   },
   {
     "title": "20代終了のお知らせ",
     "url": "https://ryopeko.hatenablog.com/entry/20120926/1348670994",
     "date": "2012-09-26",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068726/1358180468"
   },
   {
     "title": "Rubyでデフォルトでrequireさせる方法",
     "url": "https://ryopeko.hatenablog.com/entry/20120924/1348477185",
     "date": "2012-09-24",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068730/1365590825"
   },
   {
     "title": "EM高専カンファレンス vol.2に寄稿しました",
     "url": "https://ryopeko.hatenablog.com/entry/20120812/1344783921",
     "date": "2012-08-12",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068735/1358180471"
   },
   {
     "title": "Ruby会議2013までにRubyistがやるべきたった5つのこと",
     "url": "https://ryopeko.hatenablog.com/entry/20120607/1339040155",
     "date": "2012-06-07",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068741/1358180471"
   },
   {
     "title": "asakusa.rb 第161回",
     "url": "https://ryopeko.hatenablog.com/entry/20120605/1338914462",
     "date": "2012-06-05",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068750/1358180472"
   },
   {
     "title": "git log のフォーマット指定で区切り文字を指定する",
     "url": "https://ryopeko.hatenablog.com/entry/20120223/1330000620",
     "date": "2012-02-23",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068755/1358180474"
   },
   {
     "title": "高専カンファレンスに来ないような人達に思う",
     "url": "https://ryopeko.hatenablog.com/entry/20111218/1324181872",
     "date": "2011-12-18",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068761/1365590825"
   },
   {
     "title": "Rails3レシピブックを\"読んだ\"",
     "url": "https://ryopeko.hatenablog.com/entry/20111210/1323524057",
     "date": "2011-12-10",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/76cb75e325abc5a2cea64906ad6aff5ffc8a3cc9/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F41Tnr3W6b0L.jpg"
   },
   {
     "title": "Ruby会議2011のLTで発表します",
     "url": "https://ryopeko.hatenablog.com/entry/20110626/1309102300",
     "date": "2011-06-26",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068771/1358180478"
   },
   {
     "title": "ガローア会議に参加してきました",
     "url": "https://ryopeko.hatenablog.com/entry/20110430/1304180833",
     "date": "2011-04-30",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/b00ee91f5d5d4a72b78b72b9bdeacef9aacfd2df/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fr%2Fryopeko%2F20110430%2F20110430192635.jpg"
   },
   {
     "title": "Arelで色んなSQLを組み立ててみる",
     "url": "https://ryopeko.hatenablog.com/entry/20101215/1292373612",
     "date": "2010-12-15",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068830/1358180490"
   },
   {
     "title": "iPhone等のスマホ向けレイアウトを簡単に作れるjQueryMobileを試してみた",
     "url": "https://ryopeko.hatenablog.com/entry/20101126/1290755735",
     "date": "2010-11-26",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/12cfb2dd32df70a72f4c7b6d2337e8307ad26e6a/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fr%2Fryopeko%2F20101126%2F20101126155434.png"
   },
   {
     "title": "Rails3でAjaxでformのcallbackを指定するには",
     "url": "https://ryopeko.hatenablog.com/entry/20101117/1289991194",
     "date": "2010-11-17",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068888/1358180502"
   },
   {
     "title": "MongoDBのReplica Setsについての概要",
     "url": "https://ryopeko.hatenablog.com/entry/20101005/1286262922",
     "date": "2010-10-05",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/681d65939024817aa185bb00b061632e7e4fe240/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fr%2Fryopeko%2F20101005%2F20101005160321.png"
   },
   {
     "title": "高専カンファレンスのLTで発表しました",
     "url": "https://ryopeko.hatenablog.com/entry/20101002/1286023670",
     "date": "2010-10-02",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068917/1358180509"
   },
   {
     "title": "第6回ジオメディアサミットで発表しました",
     "url": "https://ryopeko.hatenablog.com/entry/20100922/1285118577",
     "date": "2010-09-22",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068922/1358180510"
   },
   {
     "title": "Rails MySQLでintegerカラムに潜む罠",
     "url": "https://ryopeko.hatenablog.com/entry/20100917/1284688094",
     "date": "2010-09-17",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068928/1358180511"
   },
   {
     "title": "Rails3のinstallからRSpec2のgenerateまで",
     "url": "https://ryopeko.hatenablog.com/entry/20100609/1276093935",
     "date": "2010-06-09",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068935/1358180512"
   },
   {
     "title": "グラフ表示を行うGoogleのAPI、Google Chart Toolsについて。",
     "url": "https://ryopeko.hatenablog.com/entry/20100508/1273335210",
     "date": "2010-05-08",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://cdn.image.st-hatena.com/image/scale/e55397098c921937e963e90542ea232fa4a34415/backend=imagemagick;version=1;width=1300/http%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fr%2Fryopeko%2F20100509%2F20100509000433.png"
   },
   {
     "title": "pager生成plugin will_paginateのインストール",
     "url": "https://ryopeko.hatenablog.com/entry/20100410/1270894436",
     "date": "2010-04-10",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068967/1358180518"
   },
   {
     "title": "RSpecをPluginとしてインストール",
     "url": "https://ryopeko.hatenablog.com/entry/20100409/1270820462",
     "date": "2010-04-09",
-    "site": "hatena"
+    "site": "hatena",
+    "image": "https://ogimage.blog.st-hatena.com/12704914408863068275/12704914408863068975/1358180519"
   }
 ]
