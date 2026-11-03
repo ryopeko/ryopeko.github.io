@@ -1,0 +1,168 @@
+{
+  "contributions": [
+    {
+      "name": "jugyo/earthquake",
+      "url": "https://github.com/jugyo/earthquake",
+      "description": "Twitter terminal client with streaming API support.",
+      "stars": 671
+    },
+    {
+      "name": "eagletmt/switch_point",
+      "url": "https://github.com/eagletmt/switch_point",
+      "description": "Switching database connection between readonly one and writable one",
+      "stars": 576
+    },
+    {
+      "name": "sonots/activerecord-refresh_connection",
+      "url": "https://github.com/sonots/activerecord-refresh_connection",
+      "description": "Refresh ActiveRecord connection on each rack request",
+      "stars": 131
+    },
+    {
+      "name": "sonots/capistrano-bundle_rsync",
+      "url": "https://github.com/sonots/capistrano-bundle_rsync",
+      "description": "Deploy an application and bundled gems via rsync",
+      "stars": 71
+    },
+    {
+      "name": "sugamasao/kanojo_bot",
+      "url": "https://github.com/sugamasao/kanojo_bot",
+      "description": "twitter kanojo bot for sugyan.",
+      "stars": 18
+    },
+    {
+      "name": "june29/emkc2",
+      "url": "https://github.com/june29/emkc2",
+      "description": "",
+      "stars": 4
+    },
+    {
+      "name": "sonots/rack-config_env",
+      "url": "https://github.com/sonots/rack-config_env",
+      "description": "A rack middleware to configure rack env",
+      "stars": 4
+    },
+    {
+      "name": "kayac/cross2014-butsukari",
+      "url": "https://github.com/kayac/cross2014-butsukari",
+      "description": "コードレビューCROSS〜ぶつかり稽古2014 初場所〜",
+      "stars": 2
+    },
+    {
+      "name": "sonots/resolver_replace",
+      "url": "https://github.com/sonots/resolver_replace",
+      "description": "Replace the DNS resolver",
+      "stars": 2
+    }
+  ],
+  "own": [
+    {
+      "name": "ryopeko/db_supplier",
+      "url": "https://github.com/ryopeko/db_supplier",
+      "description": "",
+      "stars": 19
+    },
+    {
+      "name": "ryopeko/shinq",
+      "url": "https://github.com/ryopeko/shinq",
+      "description": "Worker and enqueuer for Q4M using the interface of ActiveJob",
+      "stars": 18
+    },
+    {
+      "name": "ryopeko/ruboty-weather",
+      "url": "https://github.com/ryopeko/ruboty-weather",
+      "description": "An ruboty handler to weather from livedoor API",
+      "stars": 5
+    },
+    {
+      "name": "ryopeko/Retromaker",
+      "url": "https://github.com/ryopeko/Retromaker",
+      "description": "過去のTweetをbotにつぶやかせて今を振り返る",
+      "stars": 3
+    },
+    {
+      "name": "ryopeko/RetroImageGenerator",
+      "url": "https://github.com/ryopeko/RetroImageGenerator",
+      "description": "あなたの画像をレトロにします",
+      "stars": 2
+    },
+    {
+      "name": "ryopeko/pekostream",
+      "url": "https://github.com/ryopeko/pekostream",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/pekopermission",
+      "url": "https://github.com/ryopeko/pekopermission",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/StudyMinus",
+      "url": "https://github.com/ryopeko/StudyMinus",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/pekoviewer",
+      "url": "https://github.com/ryopeko/pekoviewer",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/Daioikachan-Client",
+      "url": "https://github.com/ryopeko/Daioikachan-Client",
+      "description": "Client for Daioikachan",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/pekobot",
+      "url": "https://github.com/ryopeko/pekobot",
+      "description": "useful bot for pekohome",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/ruboty-google_calendar",
+      "url": "https://github.com/ryopeko/ruboty-google_calendar",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/shinq_sample",
+      "url": "https://github.com/ryopeko/shinq_sample",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/install_q4m_in_travis",
+      "url": "https://github.com/ryopeko/install_q4m_in_travis",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/rails_template",
+      "url": "https://github.com/ryopeko/rails_template",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/solid_society",
+      "url": "https://github.com/ryopeko/solid_society",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/yard_diff",
+      "url": "https://github.com/ryopeko/yard_diff",
+      "description": "validate yard diff --git command",
+      "stars": 0
+    },
+    {
+      "name": "ryopeko/demo_schema",
+      "url": "https://github.com/ryopeko/demo_schema",
+      "description": "",
+      "stars": 0
+    }
+  ]
+}

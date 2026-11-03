@@ -1,0 +1,116 @@
+[
+  {
+    "title": "非同期処理とは何なのか",
+    "url": "https://speakerdeck.com/ryopeko/fei-tong-qi-chu-li-tohahe-nanoka",
+    "date": "2025-07-31",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "functionalなアプローチで動的要素を排除する",
+    "url": "https://speakerdeck.com/ryopeko/functionalnaapurotidedong-de-yao-su-wopai-chu-suru",
+    "date": "2025-01-18",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "Ruby makes everything",
+    "url": "https://speakerdeck.com/ryopeko/ruby-makes-everything",
+    "date": "2023-06-28",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "正しく失敗しながら進むプロダクト開発/railsdm2018",
+    "url": "https://speakerdeck.com/ryopeko/railsdm2018",
+    "date": "2018-03-25",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "CircleCI を使って自動(ほぼ)でセキュリティアップデート / circleci meetup",
+    "url": "https://speakerdeck.com/ryopeko/circleci-meetup",
+    "date": "2016-06-10",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "Kaizen Platform でやっている Kaizen Week というイベントについて / kaize week tokyurubykaigi 10",
+    "url": "https://speakerdeck.com/ryopeko/kaize-week-tokyurubykaigi-10",
+    "date": "2016-05-29",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "mysql casual talks vol7",
+    "url": "https://speakerdeck.com/ryopeko/mysql-casual-talks-vol7",
+    "date": "2014-12-12",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "rubyhiroba",
+    "url": "https://speakerdeck.com/ryopeko/rubyhiroba",
+    "date": "2014-09-21",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "devsumi2014-dena-bootcamp2014",
+    "url": "https://speakerdeck.com/ryopeko/devsumi2014-dena-bootcamp2014",
+    "date": "2014-02-13",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "jtrk02",
+    "url": "https://speakerdeck.com/ryopeko/jtrk02",
+    "date": "2014-02-08",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "DeNA Bootcamp 2013",
+    "url": "https://speakerdeck.com/ryopeko/dena-bootcamp-2013",
+    "date": "2013-10-12",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "自分の道具を知る",
+    "url": "https://speakerdeck.com/ryopeko/zi-fen-falsedao-ju-wozhi-ru",
+    "date": "2013-02-10",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "Rubyとわたしとわたしとワイフ",
+    "url": "https://speakerdeck.com/ryopeko/rubytowatasitowatasitowaihu",
+    "date": "2013-01-14",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "gi友",
+    "url": "https://speakerdeck.com/ryopeko/giyou",
+    "date": "2012-07-29",
+    "service": "speakerdeck"
+  },
+  {
+    "title": "高専カンファレンスというエコシステムの一歩先",
+    "url": "https://www.slideshare.net/slideshow/ss-11052087/11052087",
+    "date": "2012-01-15",
+    "service": "slideshare"
+  },
+  {
+    "title": "rubykaigi.orgを支える技術 Ruby会議2011 Lightning Talk",
+    "url": "https://www.slideshare.net/slideshow/rubykaigi2011-lt/8621836",
+    "date": "2011-07-18",
+    "service": "slideshare"
+  },
+  {
+    "title": "Heisya rb vol3",
+    "url": "https://www.slideshare.net/slideshow/heisya-rb-vol3/5715732",
+    "date": "2010-11-09",
+    "service": "slideshare"
+  },
+  {
+    "title": "Ryopeko kosenconf14",
+    "url": "https://www.slideshare.net/slideshow/ryopeko-kosenconf14/5338698",
+    "date": "2010-10-02",
+    "service": "slideshare"
+  },
+  {
+    "title": "PinQA - Geomediasummit",
+    "url": "https://www.slideshare.net/slideshow/pinqa-geomediasummit/5253841",
+    "date": "2010-09-22",
+    "service": "slideshare"
+  }
+]

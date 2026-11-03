@@ -1,0 +1,254 @@
+[
+  {
+    "title": "関西Ruby会議 08で出したプロポーザルがacceptされなかったので供養しておく",
+    "url": "https://ryopeko.hatenablog.com/entry/2025/05/22/105827",
+    "date": "2025-05-22",
+    "site": "hatena"
+  },
+  {
+    "title": "RubyKaigi 2025に参加しました",
+    "url": "https://ryopeko.hatenablog.com/entry/2025/05/09/082531",
+    "date": "2025-05-09",
+    "site": "hatena"
+  },
+  {
+    "title": "RubyWorld Conference 2024に参加してきた",
+    "url": "https://ryopeko.hatenablog.com/entry/2024/12/17/091824",
+    "date": "2024-12-17",
+    "site": "hatena"
+  },
+  {
+    "title": "Contributions of Shippio to the Ruby community",
+    "url": "https://techblog.shippio.io/contributions-of-shippio-to-the-ruby-community-175ff42067ae",
+    "date": "2023-12-27",
+    "site": "shippio"
+  },
+  {
+    "title": "Ruby Business Seminer Tokyo 2023",
+    "url": "https://techblog.shippio.io/ruby-business-seminer-tokyo-2023-85cd143ebdf9",
+    "date": "2023-06-28",
+    "site": "shippio"
+  },
+  {
+    "title": "RubyKaigi 2023",
+    "url": "https://techblog.shippio.io/rubykaigi-2023-f5f89c48abb8",
+    "date": "2023-06-06",
+    "site": "shippio"
+  },
+  {
+    "title": "Why Shippio is sponsoring RubyKaigi 2023",
+    "url": "https://techblog.shippio.io/why-shippio-is-sponsoring-rubykaigi-2023-313d0fba7460",
+    "date": "2023-05-09",
+    "site": "shippio"
+  },
+  {
+    "title": "Shippio won the Ruby biz Grand prix 2022",
+    "url": "https://techblog.shippio.io/shippio-won-the-ruby-biz-grand-prix-2022-f75d6249620b",
+    "date": "2022-11-22",
+    "site": "shippio"
+  },
+  {
+    "title": "Shippio に入社していました",
+    "url": "https://ryopeko.hatenablog.com/entry/2022/09/08/104724",
+    "date": "2022-09-08",
+    "site": "hatena"
+  },
+  {
+    "title": "ActiveRecord を使っていて NoMethodError: undefined method `new' for BigDecimal:Class と言われたら",
+    "url": "https://ryopeko.hatenablog.com/entry/2021/01/07/194402",
+    "date": "2021-01-07",
+    "site": "hatena"
+  },
+  {
+    "title": "DeNAを退職します",
+    "url": "https://ryopeko.hatenablog.com/entry/2015/10/30/134213",
+    "date": "2015-10-30",
+    "site": "hatena"
+  },
+  {
+    "title": "2014年だけど Q4M の紹介をしてみるよ",
+    "url": "https://qiita.com/ryopeko/items/f42b65a11d7f1f74311e",
+    "date": "2014-12-14",
+    "site": "qiita"
+  },
+  {
+    "title": "Developers Summit 2014 で新卒エンジニア研修についてお話してきました #devsumi",
+    "url": "https://ryopeko.hatenablog.com/entry/2014/02/13/225714",
+    "date": "2014-02-13",
+    "site": "hatena"
+  },
+  {
+    "title": "自宅Ruby会議02が開催されました #jtrk02",
+    "url": "https://ryopeko.hatenablog.com/entry/2014/02/09/005817",
+    "date": "2014-02-09",
+    "site": "hatena"
+  },
+  {
+    "title": "ぶつかり稽古について一言言っておくか ( #cross2014 の話し)",
+    "url": "https://ryopeko.hatenablog.com/entry/2014/01/21/095345",
+    "date": "2014-01-21",
+    "site": "hatena"
+  },
+  {
+    "title": "師弟登壇・新米サムライの集い 2013 で発表しました",
+    "url": "https://ryopeko.hatenablog.com/entry/2013/10/16/112359",
+    "date": "2013-10-16",
+    "site": "hatena"
+  },
+  {
+    "title": "パーフェクトRubyという書籍を執筆したら31歳になりました",
+    "url": "https://ryopeko.hatenablog.com/entry/2013/09/27/163508",
+    "date": "2013-09-27",
+    "site": "hatena"
+  },
+  {
+    "title": "自分の価値を失うということ",
+    "url": "https://ryopeko.hatenablog.com/entry/2013/06/19/022014",
+    "date": "2013-06-19",
+    "site": "hatena"
+  },
+  {
+    "title": "RubyKaigiに参加しませんでした #rubykaigi",
+    "url": "https://ryopeko.hatenablog.com/entry/2013/06/01/225842",
+    "date": "2013-06-01",
+    "site": "hatena"
+  },
+  {
+    "title": "東京Ruby会議10と自宅Ruby会議01に参加しました #tkrk10",
+    "url": "https://ryopeko.hatenablog.com/entry/20130114/1358179389",
+    "date": "2013-01-14",
+    "site": "hatena"
+  },
+  {
+    "title": "濱崎、C社やめたってよ",
+    "url": "https://ryopeko.hatenablog.com/entry/20121006/1349478688",
+    "date": "2012-10-06",
+    "site": "hatena"
+  },
+  {
+    "title": "20代終了のお知らせ",
+    "url": "https://ryopeko.hatenablog.com/entry/20120926/1348670994",
+    "date": "2012-09-26",
+    "site": "hatena"
+  },
+  {
+    "title": "Rubyでデフォルトでrequireさせる方法",
+    "url": "https://ryopeko.hatenablog.com/entry/20120924/1348477185",
+    "date": "2012-09-24",
+    "site": "hatena"
+  },
+  {
+    "title": "EM高専カンファレンス vol.2に寄稿しました",
+    "url": "https://ryopeko.hatenablog.com/entry/20120812/1344783921",
+    "date": "2012-08-12",
+    "site": "hatena"
+  },
+  {
+    "title": "Ruby会議2013までにRubyistがやるべきたった5つのこと",
+    "url": "https://ryopeko.hatenablog.com/entry/20120607/1339040155",
+    "date": "2012-06-07",
+    "site": "hatena"
+  },
+  {
+    "title": "asakusa.rb 第161回",
+    "url": "https://ryopeko.hatenablog.com/entry/20120605/1338914462",
+    "date": "2012-06-05",
+    "site": "hatena"
+  },
+  {
+    "title": "git log のフォーマット指定で区切り文字を指定する",
+    "url": "https://ryopeko.hatenablog.com/entry/20120223/1330000620",
+    "date": "2012-02-23",
+    "site": "hatena"
+  },
+  {
+    "title": "高専カンファレンスに来ないような人達に思う",
+    "url": "https://ryopeko.hatenablog.com/entry/20111218/1324181872",
+    "date": "2011-12-18",
+    "site": "hatena"
+  },
+  {
+    "title": "Rails3レシピブックを\"読んだ\"",
+    "url": "https://ryopeko.hatenablog.com/entry/20111210/1323524057",
+    "date": "2011-12-10",
+    "site": "hatena"
+  },
+  {
+    "title": "Ruby会議2011のLTで発表します",
+    "url": "https://ryopeko.hatenablog.com/entry/20110626/1309102300",
+    "date": "2011-06-26",
+    "site": "hatena"
+  },
+  {
+    "title": "ガローア会議に参加してきました",
+    "url": "https://ryopeko.hatenablog.com/entry/20110430/1304180833",
+    "date": "2011-04-30",
+    "site": "hatena"
+  },
+  {
+    "title": "Arelで色んなSQLを組み立ててみる",
+    "url": "https://ryopeko.hatenablog.com/entry/20101215/1292373612",
+    "date": "2010-12-15",
+    "site": "hatena"
+  },
+  {
+    "title": "iPhone等のスマホ向けレイアウトを簡単に作れるjQueryMobileを試してみた",
+    "url": "https://ryopeko.hatenablog.com/entry/20101126/1290755735",
+    "date": "2010-11-26",
+    "site": "hatena"
+  },
+  {
+    "title": "Rails3でAjaxでformのcallbackを指定するには",
+    "url": "https://ryopeko.hatenablog.com/entry/20101117/1289991194",
+    "date": "2010-11-17",
+    "site": "hatena"
+  },
+  {
+    "title": "MongoDBのReplica Setsについての概要",
+    "url": "https://ryopeko.hatenablog.com/entry/20101005/1286262922",
+    "date": "2010-10-05",
+    "site": "hatena"
+  },
+  {
+    "title": "高専カンファレンスのLTで発表しました",
+    "url": "https://ryopeko.hatenablog.com/entry/20101002/1286023670",
+    "date": "2010-10-02",
+    "site": "hatena"
+  },
+  {
+    "title": "第6回ジオメディアサミットで発表しました",
+    "url": "https://ryopeko.hatenablog.com/entry/20100922/1285118577",
+    "date": "2010-09-22",
+    "site": "hatena"
+  },
+  {
+    "title": "Rails MySQLでintegerカラムに潜む罠",
+    "url": "https://ryopeko.hatenablog.com/entry/20100917/1284688094",
+    "date": "2010-09-17",
+    "site": "hatena"
+  },
+  {
+    "title": "Rails3のinstallからRSpec2のgenerateまで",
+    "url": "https://ryopeko.hatenablog.com/entry/20100609/1276093935",
+    "date": "2010-06-09",
+    "site": "hatena"
+  },
+  {
+    "title": "グラフ表示を行うGoogleのAPI、Google Chart Toolsについて。",
+    "url": "https://ryopeko.hatenablog.com/entry/20100508/1273335210",
+    "date": "2010-05-08",
+    "site": "hatena"
+  },
+  {
+    "title": "pager生成plugin will_paginateのインストール",
+    "url": "https://ryopeko.hatenablog.com/entry/20100410/1270894436",
+    "date": "2010-04-10",
+    "site": "hatena"
+  },
+  {
+    "title": "RSpecをPluginとしてインストール",
+    "url": "https://ryopeko.hatenablog.com/entry/20100409/1270820462",
+    "date": "2010-04-09",
+    "site": "hatena"
+  }
+]
