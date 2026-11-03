@@ -1,0 +1,9 @@
+---
+import Page from '../layouts/Page.astro';
+import ItemList from '../components/ItemList.astro';
+import { books } from '../data/achievements';
+---
+
+<Page title="書籍" description="執筆に参加した書籍です。">
+  <ItemList items={books.map((b) => ({ ...b, note: `${b.publisher}、${b.note ?? ''}`.replace(/、$/, '') }))} />
+</Page>

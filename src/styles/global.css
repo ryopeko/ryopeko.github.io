@@ -149,3 +149,151 @@ footer {
   padding-bottom: 3rem;
   color: var(--muted);
 }
+
+.site-nav,
+.page-header {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  padding: 1rem 0 0;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current='page'] {
+  color: var(--accent);
+}
+
+.page-header {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  line-height: 1.3;
+  margin: 0 0 0.5rem;
+}
+
+.page-header p {
+  margin: 0;
+}
+
+.page-header + main > :first-child {
+  border-top: 1px solid var(--border);
+}
+
+.year {
+  font-size: 1rem;
+  color: var(--muted);
+  margin: 1.5rem 0 0.25rem;
+}
+
+.items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items li {
+  display: flex;
+  gap: 0 1rem;
+  padding: 0.35rem 0;
+}
+
+.date {
+  flex: 0 0 6rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.item-body {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.6;
+  vertical-align: 0.1em;
+}
+
+.note {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.career-list,
+.repos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.career-list li {
+  padding: 1rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.career-list .period {
+  margin: 0;
+}
+
+.career-list .company {
+  font-size: 1.2rem;
+  margin: 0 0 0.25rem;
+}
+
+.career-list p:last-child {
+  margin: 0;
+}
+
+.repos li {
+  padding: 0.4rem 0;
+  overflow-wrap: anywhere;
+}
+
+.repos p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.source {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+ul.source {
+  padding-left: 1.25rem;
+}
+
+@media (max-width: 30rem) {
+  .items li {
+    flex-direction: column;
+  }
+
+  .date {
+    flex-basis: auto;
+    font-size: 0.85rem;
+  }
+}

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { profile } from '../data/profile';
 
 interface Props {
   title: string;
@@ -8,6 +9,17 @@ interface Props {
 
 const { title, description } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
+
+const nav = [
+  { href: '/', label: 'トップ' },
+  { href: '/career/', label: '経歴' },
+  { href: '/talks/', label: '登壇' },
+  { href: '/blog/', label: 'ブログ' },
+  { href: '/oss/', label: 'OSS' },
+  { href: '/books/', label: '書籍' },
+  { href: '/events/', label: 'イベント' },
+];
+const current = Astro.url.pathname.replace(/\/?$/, '/');
 ---
 
 <!doctype html>
@@ -26,6 +38,22 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta name="twitter:card" content="summary" />
   </head>
   <body>
+    <nav class="site-nav" aria-label="サイト内">
+      <ul>
+        {
+          nav.map((n) => (
+            <li>
+              <a href={n.href} aria-current={n.href === current ? 'page' : undefined}>
+                {n.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
     <slot />
+    <footer>
+      <small>&copy; {new Date().getFullYear()} {profile.name}</small>
+    </footer>
   </body>
 </html>

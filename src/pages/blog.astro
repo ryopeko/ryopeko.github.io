@@ -1,0 +1,18 @@
+---
+import Page from '../layouts/Page.astro';
+import ItemList from '../components/ItemList.astro';
+import { blogSites, posts } from '../data/achievements';
+---
+
+<Page title="ブログ" description={`個人のブログ、会社の技術ブログ、Qiita に書いた記事です(${posts.length} 件)。`}>
+  <ItemList items={posts.map((p) => ({ ...p, badges: [blogSites[p.site].label] }))} groupByYear />
+  <ul class="muted source">
+    {
+      Object.values(blogSites).map((s) => (
+        <li>
+          <a href={s.url}>{s.label}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Page>

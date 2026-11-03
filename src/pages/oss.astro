@@ -1,0 +1,29 @@
+---
+import Page from '../layouts/Page.astro';
+import { contributions, ownRepositories } from '../data/achievements';
+
+const sections = [
+  { id: 'contributions', title: 'コントリビュートしたリポジトリ', repos: contributions },
+  { id: 'own', title: '自分で作ったもの', repos: ownRepositories },
+];
+---
+
+<Page title="OSS" description="コントリビュートした OSS と、自分で作って公開しているリポジトリです。">
+  {
+    sections.map((s) => (
+      <section id={s.id}>
+        <h2>{s.title}</h2>
+        <ul class="repos">
+          {s.repos.map((r) => (
+            <li>
+              <a href={r.url}>{r.name}</a>
+              {r.stars > 0 && <span class="muted"> ★{r.stars}</span>}
+              {r.description && <p class="muted">{r.description}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+  <p class="muted source">ほかのリポジトリは <a href="https://github.com/ryopeko">GitHub</a> にあります。</p>
+</Page>

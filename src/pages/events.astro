@@ -1,0 +1,15 @@
+---
+import Page from '../layouts/Page.astro';
+import ItemList from '../components/ItemList.astro';
+import { eventRoles, events } from '../data/achievements';
+---
+
+<Page title="イベント" description="主催したり登壇したりした勉強会・イベントです。">
+  <ItemList
+    items={events.map((e) => ({
+      ...e,
+      badges: e.roles.map((r) => eventRoles[r]),
+    }))}
+    groupByYear
+  />
+</Page>

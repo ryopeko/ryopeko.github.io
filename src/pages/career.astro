@@ -1,0 +1,21 @@
+---
+import Page from '../layouts/Page.astro';
+import { profile } from '../data/profile';
+import { formatYm } from '../lib/format';
+---
+
+<Page title="経歴" description="これまでに在籍した会社と、そこでの役割です。">
+  <ol class="career-list">
+    {
+      profile.careers.map((c) => (
+        <li>
+          <p class="period">
+            {formatYm(c.from)}〜{c.to ? formatYm(c.to) : '現在'}
+          </p>
+          <h2 class="company">{c.company}</h2>
+          <p>{c.role}</p>
+        </li>
+      ))
+    }
+  </ol>
+</Page>

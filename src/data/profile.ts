@@ -1,4 +1,4 @@
-// サイトに載せる内容の正本。実績(achievements)は別の Issue で取り込む
+// サイトに載せる内容の正本。実績は achievements.ts と *.json
 
 export type Career = {
   company: string;
@@ -6,15 +6,8 @@ export type Career = {
   from: string;
   /** YYYY-MM。在籍中は null */
   to: string | null;
-};
-
-export type Achievement = {
-  kind: 'book' | 'talk' | 'blog' | 'oss' | 'event';
-  title: string;
-  url?: string;
-  /** YYYY-MM-DD または YYYY-MM */
-  date?: string;
-  note?: string;
+  /** 役割の説明 */
+  role: string;
 };
 
 export const profile = {
@@ -35,14 +28,39 @@ export const profile = {
     { title: 'パフォーマンス改善', detail: 'アプリケーションやデータベースのボトルネックの調査と改善' },
     { title: 'リファクタリング', detail: '既存コードの見通しをよくし、変更しやすくする' },
   ],
+  // TODO: role は入社インタビューの業務内容をもとにした下書き。あとで本人が直す
   careers: [
-    { company: 'タイミー', from: '2024-10', to: null },
-    { company: 'Shippio', from: '2022-06', to: '2024-09' },
-    { company: 'KAIZEN platform', from: '2015-11', to: '2022-05' },
-    { company: 'DeNA', from: '2011-04', to: '2015-10' },
-    { company: 'NTTレゾナント', from: '2008-09', to: '2011-03' },
+    {
+      company: 'タイミー',
+      from: '2024-10',
+      to: null,
+      role: '持続可能な開発と運用の基盤づくりや、SRE の考え方を組織に根付かせるチームで、開発チームが抱える技術的な課題の解決に取り組んでいます。',
+    },
+    {
+      company: 'Shippio',
+      from: '2022-06',
+      to: '2024-09',
+      role: '国際物流プラットフォームのバックエンド開発を担当しました。英語でコミュニケーションを取るプロダクト開発組織で働きました。',
+    },
+    {
+      company: 'KAIZEN platform',
+      from: '2015-11',
+      to: '2022-05',
+      role: '顧客サイトのパフォーマンス改善やコンバージョン改善を提供するサービスの開発を担当しました。',
+    },
+    {
+      company: 'DeNA',
+      from: '2011-04',
+      to: '2015-10',
+      role: 'ゲームプラットフォームの SNS 機能の開発、開発者体験の向上、新規サービスの開発に携わりました。',
+    },
+    {
+      company: 'NTTレゾナント',
+      from: '2008-09',
+      to: '2011-03',
+      role: 'ポータルサイトの開発に携わり、使われ方を分析して自分で考えてつくる進め方を身につけました。',
+    },
   ] satisfies Career[],
-  achievements: [] as Achievement[],
   contact: {
     // TODO: 本人の Gmail アドレスに差し替える
     email: 'you@example.com',

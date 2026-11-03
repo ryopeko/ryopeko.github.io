@@ -1,0 +1,13 @@
+---
+import Page from '../layouts/Page.astro';
+import ItemList from '../components/ItemList.astro';
+import { talkServices, talks } from '../data/achievements';
+---
+
+<Page title="登壇" description={`カンファレンスや勉強会で発表したスライドです(${talks.length} 件)。`}>
+  <ItemList items={talks.map((t) => ({ ...t, badges: [talkServices[t.service].label] }))} groupByYear />
+  <p class="muted source">
+    スライドは <a href="https://speakerdeck.com/ryopeko">Speaker Deck</a> と
+    <a href="https://www.slideshare.net/ryopeko">SlideShare</a> にあります。SlideShare の日付はアップロードした日です。
+  </p>
+</Page>

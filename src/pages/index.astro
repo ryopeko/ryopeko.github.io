@@ -1,11 +1,16 @@
 ---
 import Base from '../layouts/Base.astro';
 import { profile } from '../data/profile';
+import { books, contributions, events, ownRepositories, posts, talks } from '../data/achievements';
+import { formatYm } from '../lib/format';
 
-const formatYm = (ym: string) => {
-  const [y, m] = ym.split('-');
-  return `${y}年${Number(m)}月`;
-};
+const summary = [
+  { href: '/talks/', label: '登壇', count: talks.length, unit: '件のスライド' },
+  { href: '/blog/', label: 'ブログ', count: posts.length, unit: '本の記事' },
+  { href: '/oss/', label: 'OSS', count: contributions.length + ownRepositories.length, unit: 'のリポジトリ' },
+  { href: '/books/', label: '書籍', count: books.length, unit: '冊(共著)' },
+  { href: '/events/', label: 'イベント', count: events.length, unit: '件の主催・登壇' },
+];
 ---
 
 <Base title={`${profile.name} (@${profile.handle})`} description={`${profile.tagline}。${profile.lead}。`}>
@@ -51,24 +56,25 @@ const formatYm = (ym: string) => {
           ))
         }
       </ol>
+      <p><a href="/career/">各社での役割を見る</a></p>
     </section>
 
     <section id="achievements">
       <h2>実績</h2>
-      {
-        profile.achievements.length === 0 ? (
-          <p class="muted">準備中です。</p>
-        ) : (
-          <ul>
-            {profile.achievements.map((a) => (
-              <li>
-                {a.url ? <a href={a.url}>{a.title}</a> : a.title}
-                {a.date && <span class="muted"> ({a.date})</span>}
-              </li>
-            ))}
-          </ul>
-        )
-      }
+      <ul class="cards">
+        {
+          summary.map((s) => (
+            <li>
+              <h3>
+                <a href={s.href}>{s.label}</a>
+              </h3>
+              <p>
+                {s.count} {s.unit}
+              </p>
+            </li>
+          ))
+        }
+      </ul>
     </section>
 
     <section id="contact">
@@ -81,8 +87,4 @@ const formatYm = (ym: string) => {
       </ul>
     </section>
   </main>
-
-  <footer>
-    <small>&copy; {new Date().getFullYear()} {profile.name}</small>
-  </footer>
 </Base>
