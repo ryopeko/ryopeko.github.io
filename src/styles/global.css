@@ -283,10 +283,6 @@ footer {
   font-size: 0.9rem;
 }
 
-ul.source {
-  padding-left: 1.25rem;
-}
-
 @media (max-width: 30rem) {
   .items li {
     flex-direction: column;

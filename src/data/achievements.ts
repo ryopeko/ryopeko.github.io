@@ -8,9 +8,9 @@ import ossData from './oss.json';
 import talksData from './talks.json';
 
 export const blogSites = {
-  hatena: { label: 'はてなブログ', url: 'https://ryopeko.hatenablog.com/' },
-  shippio: { label: 'Shippio Tech Blog', url: 'https://techblog.shippio.io/' },
-  qiita: { label: 'Qiita', url: 'https://qiita.com/ryopeko' },
+  hatena: { label: 'はてなブログ' },
+  shippio: { label: 'Shippio Tech Blog' },
+  qiita: { label: 'Qiita' },
 } as const;
 
 export const talkServices = {
